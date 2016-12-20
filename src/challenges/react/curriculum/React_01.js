@@ -14,12 +14,12 @@ export const challengeTitle = `<span class = 'default'>Challenge: </span>Create 
 export const challengeText = `<span class = 'default'>Intro: </span>
 React is an Open Source view library created and maintained by Facebook. It's a great tool to render the User Interface (UI) of modern web applications.<br><br>
 
-React uses a syntax extension of JavaScript called JSX that allows you to write HTML directly within JavaScript. This has several benefits. It lets you use the full programmatic power of JavaScript within HTML, and helps to keep your code readable. For the most part, JSX is similar to the HTML that you have already learned, however there are a few key differences that will be covered throughout these challenges.<br><br>
+React uses a <i>syntax extension</i> of JavaScript called JSX which allows you to write HTML directly inside JavaScript. Being able to write this way has several benefits including the fact that is allows you to use the full programmatic power of JavaScript inside the HTML, which helps keep your code readable. JSX is mostly similar to HTML, however there are a few key differences which will be explained throughout these challenges.<br><br>
 
-For instance, because JSX is a syntactic extension of JavaScript, you can actually write JavaScript directly within JSX. To do this, you simply include the code you want to be treated as JavaScript within curly braces: <code>{ 'this is treated as JavaScript code' }</code>. Keep this in mind, since it's used in several future challenges.<br><br>
+You can also write JavaScript directly into JSX. To do this, include the code you want treated as JavaScript between curly braces. For example: <code> { 'alert("This is JavaScript Code.")' } </code>. This is used in several future challenges, so keep this in mind as you progress through them.<br><br>
 
-However, because JSX is not valid JavaScript, JSX code must be compiled into JavaScript. The transpiler Babel is a popular tool for this process. For your convenience, it's already added behind the scenes for these challenges. If you happen to write syntactically invalid JSX,
-you will see the first test in these challenges fail.`
+Because JSX is a syntax extension of JavaScript, the code needs to be translated into valid JavaScript. The tool that will do this is called a <i>transpiler</i>&mdash;a word created from translator and compiler. A popular transpiler called Babel can be used for this process, and we have already included it behind-the-scenes in these challenges. If you write syntactically invalid JSX, the first test in these challenges will fail as the code will not transpile correctly.`
+
 
 export const challengeInstructions = `<span class = 'default'>Instructions: </span>
 The current code uses JSX to assign a <code>div</code> element to the constant <code>JSX</code>. Replace the <code>div</code> with an <code>h1</code> element
