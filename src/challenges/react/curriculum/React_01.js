@@ -14,9 +14,9 @@ export const challengeTitle = `<span class = 'default'>Challenge: </span>Create 
 export const challengeText = `<span class = 'default'>Intro: </span>
 React is an Open Source view library created and maintained by Facebook. It's a great tool to render the User Interface (UI) of modern web applications.<br><br>
 
-React uses a <i>syntax extension</i> of JavaScript called JSX which allows you to write HTML directly inside JavaScript. Being able to write this way has several benefits including the fact that is allows you to use the full programmatic power of JavaScript inside the HTML, which helps keep your code readable. JSX is mostly similar to HTML, however there are a few key differences which will be explained throughout these challenges.<br><br>
+React uses a <i>syntax extension</i> of JavaScript called JSX which allows you to write HTML directly inside JavaScript. Being able to write this way has several benefits including the fact that is allows you to use the full programmatic power of JavaScript inside HTML, which helps keep your code readable. JSX is mostly similar to HTML, however there are a few key differences which will be explained throughout these challenges.<br><br>
 
-You can also write JavaScript directly into JSX. To do this, include the code you want treated as JavaScript between curly braces. For example: <code> { 'alert("This is JavaScript Code.")' } </code>. This is used in several future challenges, so keep this in mind as you progress through them.<br><br>
+You can also write JavaScript directly into JSX. To do this, include the code you want treated as JavaScript between curly braces. For example: <code> { 'this is rendered as JavaScript' } </code>. This is used in several future challenges, so keep this in mind as you progress through them.<br><br>
 
 Because JSX is a syntax extension of JavaScript, the code needs to be translated into valid JavaScript. The tool that will do this is called a <i>transpiler</i>&mdash;a word created from translator and compiler. A popular transpiler called Babel can be used for this process, and we have already included it behind-the-scenes in these challenges. If you write syntactically invalid JSX, the first test in these challenges will fail as the code will not transpile correctly.`
 
